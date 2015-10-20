@@ -6,7 +6,8 @@
 body {
     font: 14px Helvetica, Sans-Serif;
     line-height: 24px;
-    /*background: url(images/noise.jpg);*/
+    background-image: url("images/paper.jpg");
+    background-attachment: fixed;
 }
 
 .clear-area {
@@ -17,7 +18,7 @@ body {
 }
 
 #page-wrap {
-    width: 800px;
+    width: 1000px;
     margin: 40px auto 60px;
 }
 
@@ -99,7 +100,7 @@ dt {
 }
 
 dd {
-    width: 600px;
+    width: 800px;
     float: right;
 }
 
